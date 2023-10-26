@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>zadanie 02 srednia arytmetyczna</h1>
+  <h2> autor:Bastian Przybylski 2p_02</h2>
+  <hr>
+  <p>Napisz program, który dla czterech liczb rzeczywistych oblicza i wyświetla ich średnią arytmetyczną. WYnik wyświetl w dwóch postaciach. Bez zaokrąglenia oraz z zaokrągleniem do trzech miejsc po przecinku.</p>
+</header>
+<script>
+
+  let a = prompt("Podaj liczbe a: ","");
+  a = parseInt(a);
+  let b = prompt("Podaj liczbe b: ","");
+  b = parseInt(b);
+  let c = prompt("Podaj liczbe c: ","");
+  c = parseInt(c);
+  let d = prompt("Podaj liczbe d: ","");
+  d = parseInt(d);
+  let suma = a+b+c+d;
+  let s = suma/4;
+  document.write("a = ",a ,"<br>");
+
+  document.write("b = ",b,"<br>");
+
+  document.write("c = ",c,"<br>");
+
+  document.write("d = ",d,"<br>");
+
+  document.write("<b>srednia arytmetyczna to : ", s,"<br></b>");
+  document.write("<b>srednia zaokraglona to : ", s.toFixed(2),"<br></b>");
+  console.log(s);
+</script>
+</body>
+</html>

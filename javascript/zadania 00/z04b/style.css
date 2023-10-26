@@ -1,0 +1,10 @@
+body{
+    background-color: wheat;
+    color:saddlebrown;
+    font-family: Arial;
+    margin: 20px;
+}
+#wynik{
+    color: red;
+    font-size: large;
+}
