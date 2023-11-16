@@ -9,7 +9,7 @@ let y = 100
 function draw(){
         fill(random(1,255),random(1,255),random(1,255))
     let dryg = random(-3,3);
-    ellipse(x + dryg,y + dryg,100,100)
+    ellipse(x + dryg,y + dryg,100,100)  
     noFill()
     fill(105,200,100)
     ellipse(760,350,50,50)
